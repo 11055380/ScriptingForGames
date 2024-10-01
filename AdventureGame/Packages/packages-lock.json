@@ -69,6 +69,10 @@
       "dependencies": {
         "com.unity.2d.common": "8.0.3",
         "com.unity.mathematics": "1.1.0",
+<<<<<<< HEAD
+=======
+        "com.unity.2d.common": "8.0.3",
+>>>>>>> origin/master
         "com.unity.modules.physics2d": "1.0.0"
       },
       "url": "https://packages.unity.com"
@@ -95,7 +99,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.burst": {
+<<<<<<< HEAD
       "version": "1.8.17",
+=======
+      "version": "1.8.16",
+>>>>>>> origin/master
       "depth": 3,
       "source": "registry",
       "dependencies": {
