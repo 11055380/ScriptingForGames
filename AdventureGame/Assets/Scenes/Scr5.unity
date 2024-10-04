@@ -178,9 +178,9 @@ GameObject:
   - component: {fileID: 429561053}
   - component: {fileID: 429561052}
   - component: {fileID: 429561051}
-  - component: {fileID: 429561056}
   - component: {fileID: 429561055}
-  - component: {fileID: 429561054}
+  - component: {fileID: 429561057}
+  - component: {fileID: 429561056}
   m_Layer: 0
   m_Name: Idle (32x32)_0
   m_TagString: Untagged
@@ -277,7 +277,7 @@ Transform:
   - {fileID: 1004262848}
   m_Father: {fileID: 952725411}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &429561054
+--- !u!114 &429561055
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -289,7 +289,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a766829e5649c3e41994c1eabf4922dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &429561055
+--- !u!114 &429561056
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -303,8 +303,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   jumpForce: 8
-  gravity: 0
---- !u!143 &429561056
+  gravity: -9.81
+--- !u!143 &429561057
 CharacterController:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -339,7 +339,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 952725411}
-  - component: {fileID: 952725413}
   - component: {fileID: 952725412}
   m_Layer: 0
   m_Name: GameObject
@@ -364,34 +363,7 @@ Transform:
   - {fileID: 429561053}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &952725412
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 952725410}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
---- !u!58 &952725413
+--- !u!58 &952725412
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
