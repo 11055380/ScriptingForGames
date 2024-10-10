@@ -10,7 +10,7 @@ public class SimpleCharacterController2D : MonoBehaviour
     public float jumpForce = 8f;
     public float gravityScale = 1f;
 
-    private Rigidbody2D rigidbody;
+    private new Rigidbody2D rigidbody; // Use the new keyword here
     private Vector2 velocity;
 
     private void Start()
